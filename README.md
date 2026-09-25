@@ -5,6 +5,12 @@ Carbreezy is a fully responsive, multi-page car dealership website built to deli
 Whether you're a first-time buyer exploring options or just love scrolling through beautiful car listings, Carbreezy makes the journey simple, visual, and enjoyable.
 
 <p align="center">
+  <a href="https://carbreezy-car-dealership-website.vercel.app/">
+    <img src="assets/live-demo-button.svg" alt="Live Demo" />
+  </a>
+</p>
+
+<p align="center">
   <img width="1901" height="907" alt="image" src="https://github.com/user-attachments/assets/d0ea1df2-2029-4a33-9405-80dbb20f162b" />
   <img width="1896" height="907" alt="image" src="https://github.com/user-attachments/assets/3fa158eb-1644-48e2-b9ab-cdb5e4e366db" />
   <img width="1881" height="901" alt="image" src="https://github.com/user-attachments/assets/0cd773c4-9ee0-4f38-9da6-9e4d3498f97e" />
