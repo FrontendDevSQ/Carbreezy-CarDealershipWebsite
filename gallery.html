@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarBreezy</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" type="text/css" href="CSS/gallery.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/script.js/2.0.2/script.min.js" integrity="sha512-UWtTDM6wtl/qutDD6i1JOGZGiEd92dveVzuLl8sMBkMHlOHcbZdexM7ZrKkeaugW7vhqDnWc2pPD/ohEV+BBbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--top header section start-->
+  <div class="top-header">
+        <div class="out-box">
+            <div class="inside-box">
+                <div class="col-1">
+                    <span><i class="fa-solid fa-envelope"></i>info@carbreezy.com</span>
+                    <span><i class="fa-solid fa-phone"></i>+2 123 654 7898</span>
+                    <span><i class="fa-solid fa-business-time"></i>Sun-Fri (08 AM - 10 PM)</span>
+                </div>
+
+                <div class="col-2">
+                    <a href="signin.html"><i class="fa-solid fa-right-long"></i>Sign In</a>
+                    <a href="signup.html"><i class="fa-solid fa-user"></i>Sign Up</a>
+                    <a href="#">Follow Us:</a>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar section atart-->
+     <header class="header">
+        <div class="logo">
+            Car <span style="color:red">breezy</span>
+        </div>
+        <nav>
+            <div class="navbar">
+                <ul class="navLinks">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <a href="#">Shop Cars <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="drop-down">
+                            <li><a href="inventory grid-toyota.html">Toyota</a></li>
+                            <li><a href="inventory grid-bmw.html">BMW</a></li>
+                            <li><a href="inventory grid-hyundai.html">Hyundai</a></li>
+                            <li><a href="inventory grid-mercedes.html">Mercedes Benz</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="Contactus.html">Contact</a></li>                        
+                    <li><a href="FAQ.html">FAQ</a></li>
+                </ul>
+            </div>    
+                <div class="others">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                    <i class="fa-solid fa-bars" id="menuBtn"></i>
+                </div>
+            
+        </nav>
+     </header>
+
+
+     <!-- gallery  -->
+
+
+
+     <section class="portfolio">
+	
+        <header class="section-head">
+            <h1>Image Gallery</h1>
+        </header>
+    
+        <main class="mainContainer">
+            
+            <!--  *****  Buttons Section Starts  *****  -->
+            <div class="button-group">
+                <button class="button active" data-filter="*">All</button>
+                <button class="button" data-filter=".design">Toyota</button>
+                <button class="button" data-filter=".development">BMW</button>
+                <button class="button" data-filter=".logo">Hyundai</button>
+            </div>
+            <!--  *****  Buttons Section Ends  *****  -->
+    
+            <!--  *****  Gallery Section Starts  *****  -->
+           
+            <div class="gallery">
+                <!--  *****  Card 1 Starts  *****  -->
+                <div class="item design">
+                    <img src="images/gallery/hilux.jpg" alt="Hilux">
+                    <div class="overlay">
+                        <a href="#" class="viewMore" data-image="images/gallery/hilux.jpg" data-title="Hilux Details" 
+                        data-description="The Hilux is known for its durability and off-road capabilities.
+                        <br>Perfect for adventurers and tradespeople alike.
+                        <br><br><span><b>Specification:</b></span><br>Body Type:  SUV, Double Cabin, Truck
+                        <br>Engine Type: 1GD<br> Displacement: 2393 - 3956 cc <br>Horse Power: 120 - 180 hp <br>
+                        Torque: 343 - 420 Nm <br>Fuel Type: Diesel & Petrol <br>Fuel Tank Capacity: 80 L<br><br>
+                        <br><b>Price: 82.4 lacs - 1.95 crore</b>">VIEW MORE</a>
+                    </div>
+                </div>
+                <!--  *****  Card 1 Ends  ***** -->
+            
+                <!--  *****  Card 2 Starts  *****  -->
+                <div class="item design">
+                    <img src="images/gallery/landcruser.jpg" alt="Land Cruiser">
+                    <div class="overlay">
+                        <a href="#" class="viewMore" data-image="images/gallery/landcruser.jpg" data-title="Land Cruiser Details" data-description="The Land Cruiser is a legendary off-road SUV.<br>
+                            Known for its luxury and capability. 
+                            <br><br><span><b>Specification:</b></span><br>Body Type:  SUV
+                            <br>Horse Power: 409 hp<br> Displacement: 3444 - 3445 cc <br>Boot Space: 621 - 1131 L <br>
+                            Fuel Type: Petrol <br>Fuel Tank Capacity: 110 L <br>Mileage: 5 - 10 KM/L<br><br>
+                            <br><b>Price: 12.0 crore</b>">VIEW MORE</a>
+                    </div>
+                </div>
+                <!--  *****  Card 2 Ends  ***** -->
+            
+                <!--  *****  Card 3 Starts  *****  -->
+                <div class="item design">
+                    <img src="images/gallery/corola.jpg" alt="Corolla">
+                    <div class="overlay">
+                        <a href="#" class="viewMore" data-image="images/gallery/corola.jpg" data-title="Corolla Details" data-description="The Corolla is one of the best-selling cars in the world.<br>
+                            Known for reliability and fuel efficiency. <br><br><span><b>Specification:</b></span><br>Body Type: Sedan
+                            <br>Horse Power: 84 - 138 hp<br> Displacement: 1298 - 1800 cc <br>Boot Space: 470 L <br>
+                            Fuel Type: Petrol <br>Fuel Tank Capacity: 55 L <br>Mileage: 8 - 17 KM/L<br><br>
+                            <br><b>Price: 59.7 - 75.5 lacs</b>">VIEW MORE</a>
+                    </div>
+                </div>
+                <!--  *****  Card 3 Ends  ***** -->
+            
+                <!--  *****  Card 4 Starts  *****  -->
+                <div class="item development">
+                    <img src="images/gallery/bmw2series.jpg" alt="BMW 2 Series">
+                    <div class="overlay">
+                        <a href="#" class="viewMore" data-image="images/gallery/bmw2series.jpg" data-title="BMW 2 Series Details" data-description="The BMW 2 Series combines sporty performance with luxury.<br>
+                            It's a thrilling choice for driving enthusiasts.<br><br><span><b>Specification:</b></span><br>Body Type: Coupe
+                            <br>Horse Power: 136 hp<br> Displacement: 1499 cc <br>Boot Space: 430 L <br>
+                            Fuel Type: Petrol <br>Fuel Tank Capacity: 42 L <br>Mileage: 18 - 20 KM/L<br><br>
+                            <br><b>Price: 3.2 crore</b> ">VIEW MORE</a>
+                    </div>
+                </div>
+                <!--  *****  Card 4 Ends  ***** -->
+            
+                <!--  *****  Card 5 Starts  *****  -->
+                <div class="item development">
+                    <img src="images/gallery/bmw3series.jpg" alt="BMW 3 Series">
+                    <div class="overlay">
+                        <a href="#" class="viewMore" data-image="images/gallery/bmw3series.jpg" data-title="BMW 3 Series Details" data-description="The BMW 3 Series is a benchmark in the luxury sedan category.
+                        <br>Offering performance, comfort, and cutting-edge technology. <br><br><span><b>Specification:</b></span><br>Body Type: Sedan
+                        <br>Horse Power: 134 - 302 hp<br> Displacement: 1499- 2993 cc <br>Boot Space: 375 - 481 L <br>
+                        Fuel Type: Petrol & Diesel & Hybrid <br>Fuel Tank Capacity: 41-60 L <br>Mileage: 9-6 KM/L<br><br>
+                        <br><b>Price: 79.0 - 115.0 lacs</b> ">VIEW MORE</a>
+                    </div>
+                </div>
+                <!--  *****  Card 5 Ends  ***** -->
+            
+                <!--  *****  Card 6 Starts  *****  -->
+                <div class="item logo">
+                    <img src="images/gallery/bmwm5.jpg" alt="BMW M5">
+                    <div class="overlay">
+                        <a href="#" class="viewMore" data-image="images/gallery/bmwm5.jpg" data-title="BMW M5 Details" data-description="The BMW M5 is a high-performance luxury sedan.
+                        <br>It delivers an exhilarating driving experience with exceptional handling. <br><br><span><b>Specification:</b></span><br>Body Type: Sedan
+                        <br>Horse Power: 252 hp<br> Displacement: 1998 cc <br>Boot Space: 530L <br>
+                        Fuel Type: Hybrid <br>Fuel Tank Capacity: 46 L <br>Mileage: 19-28 KM/L<br><br>
+                        <br><b>Price: 5.3 crore</b>">VIEW MORE</a>
+                    </div>
+                </div>
+                <!--  *****  Card 6 Ends  ***** -->
+            
+                <!--  *****  Card 7 Start  *****  -->
+                <div class="item logo">
+                    <img src="images/gallery/hyundai.jpg" alt="Hyundai">
+                    <div class="overlay">
+                        <a href="#" class="viewMore" data-image="images/gallery/hyundai.jpg" data-title="Hyundai Details" data-description="Hyundai offers a diverse range of vehicles.
+                        <br>Known for their value, technology, and reliability. <br><br><span><b>Specification:</b></span><br>Body Type: Compact Sedan
+                        <br>Horse Power: 325 hp <br>Boot Space: 316L <br>
+                        Fuel Type: Electric <br>Battery CapacityL 77.4 kWh <br>Charging Time: 8.0 Hours<br><br>
+                        <br><b>Price: 2.3 crore</b>">VIEW MORE</a>
+                    </div>
+                </div>
+                <!--  *****  Card 7 Ends  ***** -->
+            
+                <!--  *****  Card 8 Start  *****  -->
+                <div class="item logo">
+                    <img src="images/gallery/hyndai sonata.jpg" alt="Hyundai Sonata">
+                    <div class="overlay">
+                        <a href="#" class="viewMore" data-image="images/gallery/hyndai sonata.jpg" data-title="Hyundai Sonata Details" data-description="The Hyundai Sonata is a mid-size sedan.<br>
+                            It offers a spacious interior and advanced safety features. <br><br><span><b>Specification:</b></span><br>Body Type:Sedan
+                            <br>Horse Power:152-180 hp <br>Displacement: 1999 - 2497 cc<br>Boot Space: 510 L <br>
+                            Fuel Type: Petrol <br>Fuel Tank Capacity: 60 - 70 L <br>Mileage: 9 - 13 KM/L<br><br>
+                            <br><b>Price: 99.8 lacs - 1.12 crore</b>">VIEW MORE</a>
+                    </div>
+                </div>
+                <!--  *****  Card 8 Ends  ***** -->
+            
+                <!--  *****  Card 9 Start  *****  -->
+                <div class="item logo">
+                    <img src="images/gallery/elantra.jpg" alt="Elantra">
+                    <div class="overlay">
+                        <a href="#" class="viewMore" data-image="images/gallery/elantra.jpg" data-title="Elantra Details" data-description="The Elantra is a compact car known for its impressive fuel economy.<br>
+                            It’s a smart choice for urban driving. <br><br><span><b>Specification:</b></span><br>Body Type:Sedan
+                            <br>Horse Power:126-154 hp <br>Displacement: 1591 - 1999 cc<br>Boot Space: 407 L <br>
+                            Fuel Type: Petrol <br>Fuel Tank Capacity: 50 L <br>Mileage: 12 - 16 KM/L<br><br>
+                            <br><b>Price: 64.0 - 71.8 lacs</b>">VIEW MORE</a>
+                    </div>
+                </div>
+                <!--  *****  Card 9 Ends  ***** -->
+            </div>
+            
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span class="close" id="closePopup">&times;</span>
+                    <div class="popup-left">
+                        <img src="" alt="Detailed Image" class="img" id="popupImage">
+                    </div>
+                    <div class="popup-right">
+                        <h2 id="popupTitle">Details</h2>
+                        <p id="popupDescription">Description goes here.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <!--  *****  Gallery Section Ends  *****  -->
+    
+        </main>
+    
+    </section>
+    
+
+
+
+    <!--   *****   JQuery Link   *****   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<script>
+    // Get the popup
+    var popup = document.getElementById("popup");
+    var popupImage = document.getElementById("popupImage");
+    var popupTitle = document.getElementById("popupTitle");
+    var popupDescription = document.getElementById("popupDescription");
+    
+    // Get all the view more buttons
+    var viewMoreButtons = document.querySelectorAll(".viewMore");
+    
+    // Function to open the popup
+    viewMoreButtons.forEach(function(button) {
+        button.onclick = function(event) {
+            event.preventDefault(); 
+            var imageSrc = this.getAttribute("data-image");
+            var title = this.getAttribute("data-title");
+            var description = this.getAttribute("data-description");
+    
+            popupImage.src = imageSrc;
+            popupTitle.textContent = title;
+            popupDescription.innerHTML = description; 
+    
+            popup.style.display = "block";
+        };
+    });
+    
+    // Get the close button
+    var closePopup = document.getElementById("closePopup");
+    
+    // Close the popup
+    closePopup.onclick = function() {
+        popup.style.display = "none";
+    }
+    
+    // Close popup when clicking outside of it
+    window.onclick = function(event) {
+        if (event.target == popup) {
+            popup.style.display = "none";
+        }
+    };
+    </script>
+    
+
+<script>
+   
+// Select all navbar links
+const navLinks = document.querySelectorAll('.navLinks li a');
+
+// Add click event listener to each link
+navLinks.forEach(link => {
+   link.addEventListener('click', function() {
+       // Remove active class from all links
+       navLinks.forEach(item => item.classList.remove('active'));
+       // Add active class to the clicked link
+       this.classList.add('active');
+   });
+});
+
+// navbar toggle 
+let navBar = document.querySelector('.navLinks');
+let menuBar = document.querySelector('#menuBtn');
+
+menuBar.onclick = () => {
+  navBar.classList.toggle('active');
+}
+
+</script>
+
+
+<!--   *****   Isotope Filter Link   *****  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+   let $galleryContainer = $('.gallery').isotope({
+       itemSelector: '.item',
+       layoutMode: 'fitRows'
+   });
+
+   $('.button-group .button').on('click', function() {
+       $('.button-group .button').removeClass('active');
+       $(this).addClass('active');
+
+       let value = $(this).attr('data-filter');
+       $galleryContainer.isotope({
+           filter: value 
+       });
+   });
+});
+</script>
+      <!--footer-->
+      <footer class="footer">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <span class="logo1" style="color:whitesmoke">Carbreezy</span>
+                    <p class="text">Your go-to destination for the latest new and used cars, exclusive offers, and personalized dealership services</p>
+                    <span><i class="fa-solid fa-phone"></i>+2 123 654 7898</span>
+                    <span><i class="fa-solid fa-location-dot"></i> NewYork</span>
+                    <span><i class="fa-regular fa-envelope"></i>info@carbreezy.com</span>
+                </div>
+                <div class="footer-col">
+                    <h5>Quick links</h5>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>About us</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Testimonials</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Privacy Policy</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Our Dealers</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Terms of Service</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Support Center</h5>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>FAQ's</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Contact us</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Booking Tips</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Sell Vehicles</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Sitemap</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Newsletter</h5>
+                    <input type="text" placeholder="Your Email">
+                    <button>Subscribe Now  <i class="fa-brands fa-telegram"></i></button>
+                </div>
+              
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Copyright 2024 <span>CarBreezy</span> All Right Reserved. </p>
+                <div class="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </footer>
+     
+          
+</body>
+</html>

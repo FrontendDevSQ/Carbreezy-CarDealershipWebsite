@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarBreezy - Sign In</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!--top header section start-->
+    <div class="top-header">
+        <div class="out-box">
+            <div class="inside-box">
+                <div class="col-1">
+                    <span><i class="fa-solid fa-envelope"></i>info@carbreezy.com</span>
+                    <span><i class="fa-solid fa-phone"></i>+2 123 654 7898</span>
+                    <span><i class="fa-solid fa-business-time"></i>Sun-Fri (08 AM - 10 PM)</span>
+                </div>
+                <div class="col-2">
+                    <a href="signin.html"><i class="fa-solid fa-right-long"></i>Sign In</a>
+                    <a href="signup.html"><i class="fa-solid fa-user"></i>Sign Up</a>
+                    <a href="#">Follow Us:</a>
+                    <div class="social">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar section start-->
+    <header class="header">
+        <div class="logo">
+            Car <span style="color:red">breezy</span>
+        </div>
+        <nav>
+            <div class="navbar">
+                <ul class="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <a href="#">Shop Cars <i class="fa-solid fa-caret-down"></i></a>
+                        <ul class="drop-down">
+                            <li><a href="inventory grid-toyota.html">Toyota</a></li>
+                            <li><a href="inventory grid-bmw.html">BMW</a></li>
+                            <li><a href="inventory grid-hyundai.html">Hyundai</a></li>
+                            <li><a href="inventory grid-mercedes.html">Mercedes Benz</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="Contactus.html">Contact</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="others">
+                <i class="fa-solid fa-cart-shopping cart"></i>
+                <i class="fa-solid fa-bars" id="menuBtn"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="auth-page">
+        <section class="auth-card">
+            <p class="eyebrow">Welcome back</p>
+            <h1>Sign in to CarBreezy</h1>
+            <p class="auth-subtitle">Access your saved cars, orders, and account details.</p>
+
+            <a href="#" class="google-login">
+                <img src="images/google-logo.jpeg" alt="">
+                Continue with Google
+            </a>
+
+            <div class="divider"><span>or use your email</span></div>
+
+            <form class="auth-form">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="you@example.com" required>
+
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Enter your password" required>
+
+                <a class="helper-link" href="#">Forgot password?</a>
+                <button type="submit">Sign In</button>
+            </form>
+
+            <p class="switch-auth">Don't have an account? <a href="signup.html">Create one</a></p>
+        </section>
+    </main>
+
+    <script>
+        let navBar = document.querySelector('.navLinks');
+        let menuBar = document.querySelector('#menuBtn');
+
+        menuBar.onclick = () => {
+            navBar.classList.toggle('active');
+        };
+
+        window.onscroll = () => {
+            let header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 100);
+        };
+    </script>
+</body>
+</html>
